@@ -117,6 +117,13 @@
 					&:after {
 						transform: translateY(-50%) rotate(-90deg);
 					}
+
+					&:focus-within {
+
+						ul {
+							display: block;
+						}
+					}
 				}
 
 				ul {
